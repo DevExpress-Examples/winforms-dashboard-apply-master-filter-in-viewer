@@ -3,13 +3,19 @@
 
 * [Form1.cs](./CS/Dashboard_SetMasterFilter/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_SetMasterFilter/Form1.vb))
 <!-- default file list end -->
-# How to apply master filtering in DashboardViewer
+# How to set master filter in DashboardViewer
 
+The following example demonstrates how to set master filter in the [DashboardViewer](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer) control.
 
-<p>The following example demonstrates how to apply filtering for dashboard items that act as a master filter.</p>
-<br />
-<p>In this example, the <a href="http://documentation.devexpress.com/#Dashboard/DevExpressDashboardWinDashboardViewer_SetMasterFiltertopic">SetMasterFilter</a> method is used to select the required rows in the <a href="http://documentation.devexpress.com/#Dashboard/CustomDocument15150">Grid</a> dashboard item. To select the required range in the <a href="http://documentation.devexpress.com/#Dashboard/CustomDocument15265">Range Filter</a> dashboard item, the <a href="http://documentation.devexpress.com/#Dashboard/DevExpressDashboardWinDashboardViewer_SetRangetopic">SetRange</a> method is used.</p>
+The DashboardViewer control loads a dashboard with two master filter items - the Grid and Range Filter dashboard items. The Chart item displays the filtered data.  
 
-<br/>
+The [DashboardViewer.ConfigureDataConnection](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.ConfigureDataConnection) event is handled to specify the [Extract Data Source](https://docs.devexpress.com/Dashboard/115900/creating-dashboards/creating-dashboards-in-the-winforms-designer/providing-data/extract-data-source) filename. The [DashboardViewer.CustomizeDashboardTitle](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.CustomizeDashboardTitle) event handler creates the command button that executes the application's SetMasterFilterMethod procedure.
 
+The SetMasterFilterMethod procedure uses the [DashboardViewer.SetMasterFilter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.SetMasterFilter) method to select the rows in the [Grid]( https://docs.devexpress.com/Dashboard/15150)  dashboard item. The [DashboardViewer.SetRange](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.SetRange) method selects the range in the [Range Filter](https://docs.devexpress.com/Dashboard/15265) dashboard item.
 
+This example also demonstrates how to handle the [DashboardViewer.MasterFilterSet](ttps://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterSet) and [DashboardViewer.MasterFilterCleared](ttps://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterCleared) events.
+
+![Screenshot](~images\screenshot.jpg)
+
+> To reduce the application loading time and memory usage, initialize master filters before loading data as illustrated in the [
+How to apply default filtering to master filters in DashboardViewer](https://github.com/DevExpress-Examples/how-to-apply-default-filtering-to-master-filters-in-dashboardviewer-t329583/) example.
