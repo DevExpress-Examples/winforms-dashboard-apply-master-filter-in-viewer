@@ -15,7 +15,7 @@ The SetMasterFilterMethod procedure uses the [DashboardViewer.SetMasterFilter](h
 
 This example also demonstrates how to handle the [DashboardViewer.MasterFilterSet](ttps://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterSet) and [DashboardViewer.MasterFilterCleared](ttps://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterCleared) events.
 
-![Screenshot](~images\screenshot.jpg)
+![Screenshot](https://github.com/DevExpress-Examples/how-to-apply-master-filtering-in-dashboardviewer-e5097/blob/18.2.4/images/screenshot.png)
 
 > To reduce the application loading time and memory usage, initialize master filters before loading data as illustrated in the [
 How to apply default filtering to master filters in DashboardViewer](https://github.com/DevExpress-Examples/how-to-apply-default-filtering-to-master-filters-in-dashboardviewer-t329583/) example.
