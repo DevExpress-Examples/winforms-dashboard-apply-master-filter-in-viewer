@@ -13,7 +13,7 @@ The [DashboardViewer.ConfigureDataConnection](https://docs.devexpress.com/Dashbo
 
 The SetMasterFilterMethod procedure uses the [DashboardViewer.SetMasterFilter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.SetMasterFilter) method to select the rows in the [Grid]( https://docs.devexpress.com/Dashboard/15150)  dashboard item. The [DashboardViewer.SetRange](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.SetRange) method selects the range in the [Range Filter](https://docs.devexpress.com/Dashboard/15265) dashboard item.
 
-This example also demonstrates how to handle the [DashboardViewer.MasterFilterSet](ttps://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterSet) and [DashboardViewer.MasterFilterCleared](ttps://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterCleared) events.
+This example also demonstrates how to handle the [DashboardViewer.MasterFilterSet](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterSet) and [DashboardViewer.MasterFilterCleared](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterCleared) events.
 
 ![Screenshot](https://github.com/DevExpress-Examples/how-to-apply-master-filtering-in-dashboardviewer-e5097/blob/18.2.4/images/screenshot.png)
 
