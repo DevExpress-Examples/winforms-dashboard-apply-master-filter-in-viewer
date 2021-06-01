@@ -26,5 +26,5 @@ How to apply default filtering to master filters in Dashboard Viewer](https://gi
 
 ## More Examples
 
-- [How to Apply Default Filtering to Master Filter Items that Affect Each Other](https://github.com/DevExpress-Examples/win-viewer-how-to-apply-default-filtering-to-master-filter-items-that-affect-each-other-t474844)
+- [How to Apply Default Filtering to Master Filter Items that Affect Each Other](https://github.com/DevExpress-Examples/win-viewer-how-to-apply-default-filtering-to-master-filter-items-that-affect-each-other-t474844) 
 - [How to Initialize Master Filters in Dashboard Viewer](https://github.com/DevExpress-Examples/how-to-apply-default-filtering-to-master-filters-in-dashboardviewer-t329583)
