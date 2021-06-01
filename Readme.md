@@ -3,7 +3,7 @@
 
 * [Form1.cs](./CS/Dashboard_SetMasterFilter/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_SetMasterFilter/Form1.vb))
 <!-- default file list end -->
-# How to set master filter in DashboardViewer
+# How to Set Master Filter in Dashboard Viewer
 
 The following example demonstrates how to set master filter in the [DashboardViewer](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer) control.
 
@@ -19,3 +19,12 @@ This example also demonstrates how to handle the [DashboardViewer.MasterFilterSe
 
 > To reduce the application loading time and memory usage, initialize master filters before loading data as illustrated in the [
 How to apply default filtering to master filters in DashboardViewer](https://github.com/DevExpress-Examples/how-to-apply-default-filtering-to-master-filters-in-dashboardviewer-t329583/) example.
+
+## Documentation
+
+- [Master Filtering](https://docs.devexpress.com/Dashboard/116912)
+
+## More Examples
+
+- [How to Apply Default Filtering to Master Filter Items that Affect Each Other](https://github.com/DevExpress-Examples/win-viewer-how-to-apply-default-filtering-to-master-filter-items-that-affect-each-other-t474844)
+- [How to Initialize Master Filters in Dashboard Viewer](https://github.com/DevExpress-Examples/how-to-apply-default-filtering-to-master-filters-in-dashboardviewer-t329583)
