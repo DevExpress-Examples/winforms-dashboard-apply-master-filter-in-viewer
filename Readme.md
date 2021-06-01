@@ -5,9 +5,9 @@
 <!-- default file list end -->
 # How to Set Master Filter in Dashboard Viewer
 
-The following example demonstrates how to set master filter in the [DashboardViewer](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer) control.
+The following example demonstrates how to set master filter in the [Dashboard Viewer](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer) control.
 
-The DashboardViewer control loads a dashboard with two master filter items - the Grid and Range Filter dashboard items. The Chart item displays the filtered data.  
+The Dashboard Viewer control loads a dashboard with two master filter items - the Grid and Range Filter dashboard items. The Chart item displays the filtered data.  
 
 The [DashboardViewer.ConfigureDataConnection](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.ConfigureDataConnection) event is handled to specify the [Extract Data Source](https://docs.devexpress.com/Dashboard/115900/creating-dashboards/creating-dashboards-in-the-winforms-designer/providing-data/extract-data-source) filename. The [DashboardViewer.CustomizeDashboardTitle](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.CustomizeDashboardTitle) event handler creates the command button that executes the application's SetMasterFilterMethod procedure.
 
@@ -18,7 +18,7 @@ This example also demonstrates how to handle the [DashboardViewer.MasterFilterSe
 ![Screenshot](https://github.com/DevExpress-Examples/how-to-apply-master-filtering-in-dashboardviewer-e5097/blob/18.2.4/images/screenshot.png)
 
 > To reduce the application loading time and memory usage, initialize master filters before loading data as illustrated in the [
-How to apply default filtering to master filters in DashboardViewer](https://github.com/DevExpress-Examples/how-to-apply-default-filtering-to-master-filters-in-dashboardviewer-t329583/) example.
+How to apply default filtering to master filters in Dashboard Viewer](https://github.com/DevExpress-Examples/how-to-apply-default-filtering-to-master-filters-in-dashboardviewer-t329583/) example.
 
 ## Documentation
 
