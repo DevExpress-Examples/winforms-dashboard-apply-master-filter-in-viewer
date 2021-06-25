@@ -3,7 +3,7 @@
 
 * [Form1.cs](./CS/Dashboard_SetMasterFilter/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_SetMasterFilter/Form1.vb))
 <!-- default file list end -->
-# How to Set Master Filter in Dashboard Viewer
+# Dashboard for WinForms - How to Set Master Filter in Dashboard Viewer
 
 The following example demonstrates how to set master filter in the [Dashboard Viewer](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer) control.
 
