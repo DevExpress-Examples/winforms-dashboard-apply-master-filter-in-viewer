@@ -3,11 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E5097)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Form1.cs](./CS/Dashboard_SetMasterFilter/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_SetMasterFilter/Form1.vb))
-<!-- default file list end -->
 # Dashboard for WinForms - How to Set Master Filter in Dashboard Viewer
 
 The following example demonstrates how to set master filter in the [Dashboard Viewer](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer) control.
@@ -24,6 +20,10 @@ This example also demonstrates how to handle the [DashboardViewer.MasterFilterSe
 
 > To reduce the application loading time and memory usage, initialize master filters before loading data as illustrated in the [
 How to apply default filtering to master filters in Dashboard Viewer](https://github.com/DevExpress-Examples/how-to-apply-default-filtering-to-master-filters-in-dashboardviewer-t329583/) example.
+
+## Files to Look At
+
+* [Form1.cs](./CS/Dashboard_SetMasterFilter/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_SetMasterFilter/Form1.vb))
 
 ## Documentation
 
